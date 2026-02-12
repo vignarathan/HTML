@@ -1,0 +1,149 @@
+<html>
+	<head>
+		<title>YIT-Registration</title>
+		<link rel="stylesheet" href="YITstyle.css">
+		<style>
+		*{
+				font-size:20px;
+				padding:3px;
+			}
+		#button1{
+			background-color:#008CBA;
+			font-size: 20px;
+			padding: 10px 25px;
+			Color:white;
+			border-radius:12px;
+			font-style:bold;
+			margin:15px;
+		}
+		#button2{
+			background-color:#f44336;
+			font-size: 20px;
+			padding: 10px 25px;
+			Color:white;
+			border-radius:12px;
+			font-style:bold;
+			margin:12px;
+		}
+		#button3{
+			background-color:#04AA6D;
+			font-size: 20px;
+			padding: 12px 28px;
+			Color:white;
+			border-radius:10px;
+			font-style:bold;
+			margin:25px 70px;
+		}
+		</style>
+	</head>
+	<body>
+		<center>
+		<div class="reg">
+			<form>
+				<table>
+					<tr><th colspan="2" style="color:#704241; font-size:35px;">Student Registration Form</th></tr>
+					<tr><td></td></tr>
+					<tr><td><label for="fname">Full Name: </label></td>
+					<td><input type="text" placeholder="Enter full name"></td>
+					</tr>
+					<tr>
+					<td><label for="email">Email: </label></td>
+					<td><input type="email" placeholder="Enter email"></td>
+					</tr>
+					<tr>
+					<td><label for="phno">Phone Number: </label></td>
+					<td><input type="text" placeholder="07XXXXXXXX"></td>
+					</tr>
+					<tr>
+					<td><label for="dob">Date of Birth: </label></td>
+					<td><input type="date" placeholder="mm/dd/yyyy"></td>
+					</tr>
+					<tr>
+					<td><label for="clstime">Preferred class Time: </label></td>
+					<td><input type="time" placeholder="--:-- --"></td>
+					</tr>
+					<tr>
+					<td><label for="week">Preferred Week: </label></td>
+					<td><input type="week" placeholder="Week--,----"></td>
+					</tr>
+					<tr>
+					<td><label for="portpolio">Portpolio Website: </label></td>
+					<td><input type="url" placeholder="https://example.com"></td>
+					</tr>
+					<tr>
+					<td><label for="course">Search Course: </label></td>
+					<td><input type="search" placeholder="Search course"></td>
+					</tr>
+					<tr>
+					<td><label for="color">Color Code: </label></td>
+					<td><input type="color"></td>
+					</tr>
+					<tr>
+					<td><label for="level">Current Knowledge Level: </label></td>
+					<td><input type="range"></td>
+					</tr>
+					<tr>
+					<td><label for="gender">Gender: </label></td>
+					<td><input type="radio" id="male" value="Male"><label for="male">Male</label>
+					<input type="radio" id="female" value="Female"><label for="female">Female</label>
+					<input type="radio" id="other" value="Other"><label for="other">Other</label></td>
+					</tr>
+					<tr>
+					<td><label for="subjects">Subjects: </label></td>
+					<td><input type="checkbox" id="html" value="HTML"><label for="html">HTML</label>
+					<input type="checkbox" id="css" value="CSS"><label for="css">CSS</label>
+					<input type="checkbox" id="javascript" value="JavaScript"><label for="javascript">JavaScript</label></td>
+					</tr>
+					<tr>
+					<td><label for="c">Course: </label></td>
+					<td><Select>
+							<option value="OOP Java">OOP Java</option>
+							<option value="C#">C#</option>
+							<option value="MERN Stack">MERN Stack</option>
+							<option value="ASP.net">ASP.net</option>
+					</td>
+					</tr>
+					<tr>
+					<td><label for="l">Language mredium: </label></td>
+					<td><Select multiple>
+							<option value="English">English</option>
+							<option value="Tamil">Tamil</option>
+							<option value="Sinhala">Sinhala</option>
+							<option value="French">French</option>
+							<option value="Korean">Korean</option>
+							<option value="Japanese">Japanese</option>
+							<option value="Hindi">Hindi</option>
+							<option value="?Chinese">Chinese</option>
+					</td>
+					</tr>
+					<tr>
+					<td><label for="city">City: </label></td>
+					<td><input type="text"></td>
+					</tr>
+					<tr>
+					<td><label for="address">Address: </label></td>
+					<td> <textarea id="address" name="adderss" rows="5" cols="30"> </textarea></td>
+					</tr>
+					<tr>
+					<td><label for="id">Student ID: </label></td>
+					<td><input type="text" id="id" name="id" placeholder="STD1001"></td>
+					</tr>
+					<tr>
+					<td><label for="photo">Upload Photo:</label></td>
+					<td><input type="file" id="photo" name="photo"></td>
+					</tr>
+					<tr>
+					<td><label for="code"  >Referral Code: </label></td>
+					<td><input type="text" id="id" name="id" value="DISABLED"disabled></td>
+					</tr>
+					<tr><td></td></tr>
+					<tr><td></td></tr>
+					<tr><td><a href="student.html"><input type="button" id="button1" value="Back"></a><input type="reset" id="button2" value="clear"></td><td><input type="submit" id="button3" value="Register"></td></tr>
+				</table>
+				
+			</form>
+		</div>
+		</center>
+	</body>
+
+</html>
