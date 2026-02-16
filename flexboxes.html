@@ -1,0 +1,180 @@
+<html>
+	<head>
+		<title>flexboxes</title>
+		<h1 Style="color:red;">Flexboxes</h1> 
+		<style>
+			#main1{
+				display:flex;
+				background-color:#d1bea8;
+			}	
+			#main2{
+				display:inline-flex;
+				background-color:#d1bea8;
+			}
+			#main3{
+				display:flex;
+				background-color:#d1bea8;
+				flex-direction:row;
+			}	
+			#main4{
+				display:flex;
+				background-color:#d1bea8;
+				flex-direction:row-reverse;
+			}	
+			#main5{
+				display:flex;
+				background-color:#d1bea8;
+				flex-direction:column;
+			}
+			#main6{
+				display:flex;
+				background-color:#d1bea8;
+				flex-direction:column-reverse;
+			}
+			#main7{
+				display:flex;
+				background-color:#d1bea8;
+				flex-wrap:nowrap;
+			}
+			#main8{
+				display:flex;
+				background-color:#d1bea8;
+				flex-wrap:wrap;
+			}
+			#main9{
+				display:flex;
+				background-color:#d1bea8;
+				flex-wrap:wrap-reverse;
+			}
+			div{
+				background-color:white;
+				margin:5px;
+				padding:20px;
+				font-size:25px;
+			}
+			.div1{
+				background-color:white;
+				margin:5px;
+				width:50px;
+				text-align:center; class="div1"
+				padding:20px;
+				font-size:25px;
+			}
+		</style>
+	</head>
+	<body>
+	
+		<h2>I.Display</h2>
+		
+		<h3>1.flex</h3>
+		<div id="main1">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+		</div>
+		
+		<h3>2.inline-flex</h3>
+		<div id="main2">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+		</div>
+		
+		
+		<h2>II.flex-direction</h2>
+		
+		<h3>1.row</h3>
+		<div id="main3">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+		</div>
+		
+		<h3>2.row-reverse</h3>
+		<div id="main4">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+		</div>
+		
+		<h3>3.column</h3>
+		<div id="main5">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+		</div>
+		
+		<h3>4.column-reverse</h3>
+		<div id="main6">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+		</div>
+		
+		<h2>II.flex-wrap</h2>
+		
+		<h3>1.nowrap</h3> <!-- Default -->
+		<div id="main7">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+			<div class="div1">6</div>
+			<div class="div1">7</div>
+			<div class="div1">8</div>
+			<div class="div1">9</div>
+			<div class="div1">10</div>
+			<div class="div1">11</div>
+			<div class="div1">12</div>
+			<div class="div1">13</div>
+		</div>
+		
+		<h3>2.wrap</h3>
+		<div id="main8">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+			<div class="div1">6</div>
+			<div class="div1">7</div>
+			<div class="div1">8</div>
+			<div class="div1">9</div>
+			<div class="div1">10</div>
+			<div class="div1">11</div>
+			<div class="div1">12</div>
+			<div class="div1">13</div>
+		</div>
+		
+		<h3>3.wrap-reverse</h3> 
+		<div id="main9">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+			<div class="div1">6</div>
+			<div class="div1">7</div>
+			<div class="div1">8</div>
+			<div class="div1">9</div>
+			<div class="div1">10</div>
+			<div class="div1">11</div>
+			<div class="div1">12</div>
+			<div class="div1">13</div>
+		</div>
+		
+	</body>
+</html>
