@@ -1,54 +1,35 @@
 <html>
 	<head>
 		<title>flexboxes</title>
-		<h1 Style="color:red;">Flexboxes</h1> 
+		<h1 Style="color:red;">Flexbox Properties</h1> 
 		<style>
 			#main1{
 				display:flex;
-				background-color:#d1bea8;
+				background-color:#c4aead;
 			}	
 			#main2{
 				display:inline-flex;
-				background-color:#d1bea8;
+				background-color:#c4aead;
 			}
-			#main3{
+			.main{
 				display:flex;
-				background-color:#d1bea8;
-				flex-direction:row;
-			}	
-			#main4{
-				display:flex;
-				background-color:#d1bea8;
-				flex-direction:row-reverse;
-			}	
-			#main5{
-				display:flex;
-				background-color:#d1bea8;
-				flex-direction:column;
+				background-color:#c4aead;
+				
 			}
-			#main6{
+			.main1{
 				display:flex;
-				background-color:#d1bea8;
-				flex-direction:column-reverse;
+				height: 200px;
+				background-color:#c4aead;
 			}
-			#main7{
-				display:flex;
-				background-color:#d1bea8;
-				flex-wrap:nowrap;
-			}
-			#main8{
-				display:flex;
-				background-color:#d1bea8;
-				flex-wrap:wrap;
-			}
-			#main9{
-				display:flex;
-				background-color:#d1bea8;
-				flex-wrap:wrap-reverse;
+			.main2{
+				display: flex;
+				height: 400px;
+				flex-wrap: wrap;
+				background-color:#c4aead;
 			}
 			div{
 				background-color:white;
-				margin:5px;
+				margin:5px;  
 				padding:20px;
 				font-size:25px;
 			}
@@ -64,7 +45,7 @@
 	</head>
 	<body>
 	
-		<h2>I.Display</h2>
+		<h2>I.display</h2>
 		
 		<h3>1.flex</h3>
 		<div id="main1">
@@ -88,7 +69,7 @@
 		<h2>II.flex-direction</h2>
 		
 		<h3>1.row</h3>
-		<div id="main3">
+		<div class="main" style="flex-direction:row;">
 			<div>1</div>
 			<div>2</div>
 			<div>3</div>
@@ -97,7 +78,7 @@
 		</div>
 		
 		<h3>2.row-reverse</h3>
-		<div id="main4">
+		<div class="main" style="flex-direction:row-reverse;">
 			<div>1</div>
 			<div>2</div>
 			<div>3</div>
@@ -106,7 +87,7 @@
 		</div>
 		
 		<h3>3.column</h3>
-		<div id="main5">
+			<div class="main" style="flex-direction:column;">
 			<div class="div1">1</div>
 			<div class="div1">2</div>
 			<div class="div1">3</div>
@@ -115,7 +96,7 @@
 		</div>
 		
 		<h3>4.column-reverse</h3>
-		<div id="main6">
+		<div class="main" style="flex-direction:column-reverse;">
 			<div class="div1">1</div>
 			<div class="div1">2</div>
 			<div class="div1">3</div>
@@ -123,10 +104,10 @@
 			<div class="div1">5</div>
 		</div>
 		
-		<h2>II.flex-wrap</h2>
+		<h2>III.flex-wrap</h2>
 		
 		<h3>1.nowrap</h3> <!-- Default -->
-		<div id="main7">
+		<div class="main" style="flex-wrap:nowrap;">
 			<div class="div1">1</div>
 			<div class="div1">2</div>
 			<div class="div1">3</div>
@@ -143,7 +124,7 @@
 		</div>
 		
 		<h3>2.wrap</h3>
-		<div id="main8">
+		<div class="main" style="flex-wrap:wrap;">
 			<div class="div1">1</div>
 			<div class="div1">2</div>
 			<div class="div1">3</div>
@@ -160,7 +141,7 @@
 		</div>
 		
 		<h3>3.wrap-reverse</h3> 
-		<div id="main9">
+		<div class="main" style="flex-wrap:wrap-reverse;">
 			<div class="div1">1</div>
 			<div class="div1">2</div>
 			<div class="div1">3</div>
@@ -176,5 +157,269 @@
 			<div class="div1">13</div>
 		</div>
 		
+		<h2>IV.flex-flow</h2>
+		<div class="main" style="flex-flow:row wrap;">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+			<div class="div1">6</div>
+			<div class="div1">7</div>
+			<div class="div1">8</div>
+			<div class="div1">9</div>
+			<div class="div1">10</div>
+			<div class="div1">12</div>
+			<div class="div1">11</div>
+			<div class="div1">13</div>
+			<div class="div1">14</div>
+			<div class="div1">15</div>
+			<div class="div1">16</div>
+		</div>
+		
+		<h2>V.justify-content</h2>
+		
+		<h3>1.center</h3>
+		<div class="main" style="justify-content:center;">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+		</div>
+		
+		<h3>2.flex-start</h3>
+		<div class="main" style="justify-content: flex-start;">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+		</div>
+		
+		<h3>3.flex-end</h3>
+		<div class="main" style="justify-content: flex-end;">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+		</div>
+		
+		<h3>4.space-around</h3>
+		<div class="main" style="justify-content:space-around;">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+		</div>
+		
+		<h3>5.space-between</h3>
+		<div class="main" style="justify-content:space-between;">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+		</div>
+		
+		<h3>6.space-evenly</h3>
+		<div class="main" style="justify-content: space-evenly;">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+		</div>
+		
+		<h2>VI.align-items</h2>
+		
+		<h3>1.normal</h3>
+		<div class="main1" style="align-items:normal;">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+		</div>
+		
+		<h3>2.stretch</h3>
+		<div class="main1" style="align-items:stretch;">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+		</div>
+		
+		<h3>3.center</h3>
+		<div class="main1" style="align-items:center;">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+		</div>
+		
+		<h3>4.flex-start</h3>
+		<div class="main1" style="align-items:flex-start;">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+		</div>
+		<h3>5.flex-end</h3>
+		<div class="main1" style="align-items:flex-end;">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+		</div>
+		
+		<h3>6.baseline</h3>
+		<div class="main1" style="align-items:baseline;">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+		</div>
+		
+		<h2>VII.align-content</h2>
+		
+		<h3>1.stretch</h3>
+		<div class="main2" style="align-content:stretch;">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+			<div class="div1">6</div>
+			<div class="div1">7</div>
+			<div class="div1">8</div>
+			<div class="div1">9</div>
+			<div class="div1">10</div>
+			<div class="div1">11</div>
+			<div class="div1">12</div>
+			<div class="div1">13</div>
+			<div class="div1">14</div>
+			<div class="div1">15</div>
+		</div>
+		
+		<h3>2.center</h3>
+		<div class="main2" style="align-content:center;">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+			<div class="div1">6</div>
+			<div class="div1">7</div>
+			<div class="div1">8</div>
+			<div class="div1">9</div>
+			<div class="div1">10</div>
+			<div class="div1">11</div>
+			<div class="div1">12</div>
+			<div class="div1">13</div>
+			<div class="div1">14</div>
+			<div class="div1">15</div>
+		</div>
+		
+		<h3>3.flex-start</h3>
+		<div class="main2" style="align-content:flex-start;">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+			<div class="div1">6</div>
+			<div class="div1">7</div>
+			<div class="div1">8</div>
+			<div class="div1">9</div>
+			<div class="div1">10</div>
+			<div class="div1">11</div>
+			<div class="div1">12</div>
+			<div class="div1">13</div>
+			<div class="div1">14</div>
+			<div class="div1">15</div>
+		</div>
+		
+		<h3>4.flex-end</h3>
+		<div class="main2" style="align-content:flex-end;">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+			<div class="div1">6</div>
+			<div class="div1">7</div>
+			<div class="div1">8</div>
+			<div class="div1">9</div>
+			<div class="div1">10</div>
+			<div class="div1">11</div>
+			<div class="div1">12</div>
+			<div class="div1">13</div>
+			<div class="div1">14</div>
+			<div class="div1">15</div>
+		</div>
+		<h3>5.space-between</h3>
+		<div class="main2" style="align-content:space-between;">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+			<div class="div1">6</div>
+			<div class="div1">7</div>
+			<div class="div1">8</div>
+			<div class="div1">9</div>
+			<div class="div1">10</div>
+			<div class="div1">11</div>
+			<div class="div1">12</div>
+			<div class="div1">13</div>
+			<div class="div1">14</div>
+			<div class="div1">15</div>
+		</div>
+		
+		<h3>6.space-around</h3>
+		<div class="main2" style="align-content:space-around;">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+			<div class="div1">6</div>
+			<div class="div1">7</div>
+			<div class="div1">8</div>
+			<div class="div1">9</div>
+			<div class="div1">10</div>
+			<div class="div1">11</div>
+			<div class="div1">12</div>
+			<div class="div1">13</div>
+			<div class="div1">14</div>
+			<div class="div1">15</div>
+		</div>
+		
+		<h3>7.space-evenly</h3>
+		<div class="main2" style="align-content:space-evenly;">
+			<div class="div1">1</div>
+			<div class="div1">2</div>
+			<div class="div1">3</div>
+			<div class="div1">4</div>
+			<div class="div1">5</div>
+			<div class="div1">6</div>
+			<div class="div1">7</div>
+			<div class="div1">8</div>
+			<div class="div1">9</div>
+			<div class="div1">10</div>
+			<div class="div1">11</div>
+			<div class="div1">12</div>
+			<div class="div1">13</div>
+			<div class="div1">14</div>
+			<div class="div1">15</div>
+		</div>
 	</body>
 </html>
