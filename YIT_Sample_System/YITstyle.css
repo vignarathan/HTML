@@ -1,0 +1,29 @@
+/*externalcss*/
+.main{
+	display:flex;
+}
+
+.my{
+	height:300px;
+	width:285px;
+	font-size:20px;
+	background-color:#faf0e6;
+	border:5px solid black;
+	border-color:#bc8f8f ;
+	border-radius:10px;
+	margin:20px;
+	padding:10px;
+	text-align:justify;
+	
+}
+.reg{
+	width:70%;
+	border:4px solid #bc8f8f;
+	background-color:#f8f8ff ;
+	border-radius:15px;
+	margin:20px;
+	padding:10px;
+				
+}
+.view{
+	
