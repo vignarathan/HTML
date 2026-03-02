@@ -1,17 +1,78 @@
+<!doctypehtml>
 <html>
 	<head>
-		<title>Take Care Hospitals</title>
+		<title>Yarl Central Hospital</title>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 	</head>
 	<body>
-		<nav class="navbar bg-body-tertiary">
-		  <div class="container-fluid">
-			<a class="navbar-brand">Navbar</a>
-			<form class="d-flex" role="search">
-			  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-			  <button class="btn btn-outline-success" type="submit">Search</button>
-			</form>
+		<nav   class="navbar bg-body-tertiary">
+		  <div  style="background-color:#0A4D8C;" class="container-fluid">
+			<img src="ych_logo.png" alt="Logo" style="border:3px solid #0A4D8C;" width="100px" height="90px"  class="d-inline-block align-text-top">
+			<h1 style="font-size:50px; color:white; padding-right:450px;"class="navbar-brand" href="#"> Yarl Central Hospital</h1>
 		  </div>
 		</nav>
+		<!-- photo slides-->
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		  <div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		  </div>
+		  <div style="height:500px" class="carousel-inner">
+			<div class="carousel-item active"  data-bs-interval="3000">
+			  <img  src="doctors2.webp" class="img-fluid  d-block w-100 " alt="..." >
+			</div>
+			<div class="carousel-item"  data-bs-interval="3000">
+			  <img  src="ward1.jpg" class="img-fluid d-block w-100 " alt="...">
+			</div>
+			<div class="carousel-item"  data-bs-interval="3000">
+			  <img  src="surgery.jpg" class="img-fluid d-block w-100 " alt="...">
+			</div>
+		  </div>
+		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		  </button>
+		</div>
+		
+		<nav style="background-color:#062F5F;" class="navbar navbar-expand-lg bg-body-tertiary">
+		  <div class="container-fluid">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item">
+				  <a class="nav-link active" aria-current="page" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					Dropdown
+				  </a>
+				  <ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="#">Action</a></li>
+					<li><a class="dropdown-item" href="#">Another action</a></li>
+					<li><hr class="dropdown-divider"></li>
+					<li><a class="dropdown-item" href="#">Something else here</a></li>
+				  </ul>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+				</li>
+			  </ul>
+			  <form class="d-flex" role="search">
+				<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+				<button class="btn btn-outline-success" type="submit">Search</button>
+			  </form>
+			</div>
+		  </div>
+		</nav>
+	
+		
 	</body>
 </html>
