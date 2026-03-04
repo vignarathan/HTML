@@ -11,6 +11,7 @@
 .heading{
 	font-size:50px; 
 	color:white; 
+	padding:0 200px 0 0;
 }
 .carousel-item {
   height: 500px; /* Set your desired height */
@@ -22,5 +23,5 @@
   object-position:center; /* Centers the image within the item */
 }
 .nav-buttons {
-  margin: 0 10px; /* for space */
+  margin: 0 10px; /* for  space */
 }
