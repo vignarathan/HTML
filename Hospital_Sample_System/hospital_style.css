@@ -1,0 +1,26 @@
+.header1{
+	background-color:#0A4D8C;
+	border-radius:5px;
+	box-shadow:10px;
+}
+.logo{
+	border:3px solid #0A4D8C;
+	width:100px;
+	height:90px;
+}
+.heading{
+	font-size:50px; 
+	color:white; 
+}
+.carousel-item {
+  height: 500px; /* Set your desired height */
+}
+.carousel-item img {
+  height: 100%; /* Make the image fill the item's height */
+  width: 100%;  /* Make the image fill the item's width */
+  object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+  object-position:center; /* Centers the image within the item */
+}
+.nav-buttons {
+  margin: 0 10px; /* for space */
+}
