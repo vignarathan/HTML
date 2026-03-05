@@ -1,7 +1,6 @@
 .header1{
-	background-color:#0A4D8C;
+	/*background-color:#0A4D8C;*/
 	border-radius:5px;
-	box-shadow:10px;
 }
 .logo{
 	border:3px solid #0A4D8C;
@@ -24,4 +23,10 @@
 }
 .nav-buttons {
   margin: 0 10px; /* for  space */
+}
+.footer1{
+	padding:50px 0 0 0;
+}
+.footercol2{
+	padding:130px 0 0 0;
 }
