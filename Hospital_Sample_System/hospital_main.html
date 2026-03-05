@@ -9,8 +9,8 @@
 	<body>
 	
 	<!-- Header 1-->
-		<nav   class="navbar bg-body-tertiary">
-		  <div class="container-fluid d-flex align-items-center header1">
+		<nav   class="navbar bg-body-tertiary ">
+		  <div class="container-fluid d-flex align-items-center bg-secondary bg-gradient text-white header1">
 			<div>
 			<img src="ych_logo.png" alt="Logo" class="logo me-3 d-inline-block align-text-top">
 			</div>
@@ -27,7 +27,10 @@
 			  <span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-			  <!-- <a class="navbar-brand" href="#">Hidden brand</a> -->
+			  <a class="navbar-brand" href="#">
+						<button type="button"  class="btn btn-outline-danger nav-buttons">Call Ambulance</button>
+						<button type="button" class="btn btn-outline-primary nav-buttons">For Appointment</button>
+			  </a>
 			  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 				<li class="nav-item">
 				  <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -80,12 +83,7 @@
 					<li><a class="dropdown-item" href="#">Cafeteria</a></li>
 				  </ul>
 				</li>
-				<li style="padding:0 15px 0 20x;">
-					<button type="button"  class="btn btn-outline-danger nav-buttons">Call Ambulance</button>
-				</li> 
-				<li>
-					<button type="button" class="btn btn-outline-primary nav-buttons">For Appointment</button>
-				</li>
+				
 			  </ul>
 			  <form class="d-flex" role="search">
 				<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
@@ -122,6 +120,34 @@
 			<span class="carousel-control-next-icon" aria-hidden="true"></span>
 			<span class="visually-hidden">Next</span>
 		  </button>
+		</div>
+		
+	<!--footer-->
+		<div class="container-fluid footer_row bg-dark bg-gradient text-white">
+			<div class="container">
+				<div class="container row footer1">
+					<div class="col">
+						<img src="ych_logo.png" alt="Logo" class="logo me-3 d-inline-block align-text-top">
+						<h2>Yarl Central Hospital</h2>
+						<p>No.18/35,<br>Main Street,<br>Jaffna,<br>Northern Province,<br>Sri Lanka.
+					</div>
+					<div class="container col footercol2">
+						<table>
+							<tr>
+								<td>Phone No</td><td>:</td><td><em>021 229 2565</em></td>
+							</tr>
+							<tr>
+								<td>Email</td><td>:</td><td><em>yarlcentralhospital@gmail.com</em></td>
+							</tr>
+							<tr>
+								<td>Website</td><td>:</td><td><em>www.yarlcentalhospital.com</em></td>
+							</tr>
+						</table>
+					</div>
+					<hr>
+					<p style="text-align:center;">©2026 Yarl Central Hospital.</p>
+				</div>
+			</div>
 		</div>
 		
 	</body>
